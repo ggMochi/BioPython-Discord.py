@@ -6,15 +6,15 @@ Neste projeto, estou criando um bot personalizado para ser utilizado juntamente 
 </div>
 
 #
-Bem-vindo ao repositório do Bot do Discord para Tratamento de Arquivos Biológicos! Este é um projeto em que utilizamos o Biopython para criar um bot personalizado que lida com arquivos biológicos no ambiente do Discord. Este README fornecerá uma visão geral do projeto, incluindo informações sobre o Biopython, o que é um bot para Discord e as principais utilidades deste projeto.
+Bem-vindo ao repositório desse projeto! Este README fornecerá uma visão geral do projeto, incluindo informações sobre o Biopython, o que é um bot para Discord e as principais utilidades deste projeto.
 
 ## Biopython
 
-O [Biopython](https://biopython.org/) é uma biblioteca de código aberto para programação em Python, projetada para facilitar o trabalho com dados biológicos. Ele oferece uma ampla variedade de ferramentas, módulos e métodos que permitem aos desenvolvedores realizar várias tarefas relacionadas à análise, manipulação e processamento de sequências biológicas, estruturas macromoleculares e outros dados biológicos.
+O [Biopython](https://biopython.org/) é uma biblioteca de código aberto para programação em Python, projetada para facilitar o trabalho com dados biológicos. Ele oferece uma ampla variedade de ferramentas, módulos e métodos que permitem aos desenvolvedores realizar várias tarefas relacionadas à análise, manipulação e processamento de sequências biológicas, estruturas macromoleculares e outros dados.
 
-## Sobre o Bot para Discord
+## Sobre o Discord-Bot
 
-Um bot para Discord é um programa automatizado que interage com usuários dentro de servidores do Discord. Ele pode ser usado para adicionar funcionalidades extras ao servidor, realizar tarefas específicas ou responder a comandos personalizados. No caso deste projeto, estamos criando um bot especializado em lidar com arquivos biológicos.
+Um bot para Discord é um programa automatizado que interage com usuários dentro de servidores do Discord. Ele pode ser usado para adicionar funcionalidades extras ao servidor, realizar tarefas específicas ou responder a comandos personalizados. No caso deste projeto, estou criando um bot especializado em lidar com arquivos biológicos.
 
 ### Principais Utilidades
 
@@ -28,7 +28,7 @@ Um bot para Discord é um programa automatizado que interage com usuários dentr
 
 ## Sobre o Projeto
 
-Este projeto é uma iniciativa pessoal de um programador iniciante, e visa explorar a programação com Python, o uso do Biopython e a criação de bots para Discord. Portanto, esteja ciente de que o código pode não ser totalmente otimizado ou seguir as melhores práticas. No entanto, estou totalmente aberto a sugestões e colaborações para aprimorar o projeto.
+Este projeto é uma iniciativa pessoal de um programador iniciante, e visa explorar a programação com Python, o uso do Biopython e a criação de bots para Discord. Portanto,  o código pode não ser totalmente otimizado ou seguir as melhores práticas. No entanto, estou totalmente aberto a sugestões e colaborações para aprimorar o projeto.
 
 ### Contribuição
 
