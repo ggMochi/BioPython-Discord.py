@@ -30,6 +30,14 @@ Um bot para Discord é um programa automatizado que interage com usuários dentr
 
 Este projeto é uma iniciativa pessoal de um programador iniciante, e visa explorar a programação com Python, o uso do Biopython e a criação de bots para Discord. Portanto,  o código pode não ser totalmente otimizado ou seguir as melhores práticas. No entanto, estou totalmente aberto a sugestões e colaborações para aprimorar o projeto.
 
+### Arquitetura
+Você vai notar que esse projeto possue um arquivo *main.py*, ele quem ira gerenciar todo o bot. Na pasta *'commands'* encontrara as subpasta contendo os arquivos *.py* com os comandos do bot e um README.md com informações sobre os arquivos nessa subpasta, algo muito parecido com: 
+
+`/commands/`: Pasta contendo os principais comandos
+  - `fasta `: Subpasta organizando os comandos que utilizam arquivo fasta
+    - `command.py `: Código Python contendo algum comando
+    - `README.md`: Explicações detalhadas
+
 ### Contribuição
 
 Se você é um programador experiente e tem sugestões de melhorias ou correções, sinta-se à vontade para contribuir para este projeto. Basta fazer um fork deste repositório, implementar as modificações desejadas e enviar uma solicitação de pull. Sua contribuição será muito apreciada, por favor fique a vontade para me contar o que achou do projeto
