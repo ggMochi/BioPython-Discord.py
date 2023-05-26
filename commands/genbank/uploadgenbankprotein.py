@@ -9,7 +9,7 @@ class UploadGenbankProtein(commands.Cog):
         #super().__init__()
         self.boss = boss
         
-    @commands.command("UploadGenbankProtein")
+    @commands.command("UploadGenbankGene")
     async def uploadProtein(self, ctx, attachment: discord.Attachment):
         
         genes_codificantes = {} 

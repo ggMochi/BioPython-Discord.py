@@ -26,7 +26,7 @@ class UploadGenbank(commands.Cog):
                                 "Complemento: %s\n" % sequence.complement() +
                                 "Template: %s\n" % sequence.reverse_complement() +
                                 "RNA: %s\n" % sequence.transcribe()+
-                                "\n\n") 
+                                "<------------------------------------------------------------------------->\n\n") 
         
         with open(f'{attachment.filename}.txt', 'rb') as arquivo:        
             await ctx.send("Aqui está o arquivo", file=discord.File(arquivo))        
