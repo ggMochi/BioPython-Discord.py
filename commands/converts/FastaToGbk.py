@@ -13,12 +13,14 @@ class ConvertFastaToGenbank(commands.Cog):
         
     @commands.command("FastaToGenbank")
     async def ConvertFasta_GenBank(self, ctx, attachment: discord.Attachment):
-        data = await attachment.read()        
+        data = await attachment.read()  
+              
         with open(f'{attachment.filename}', 'w') as arquivo:
             arquivo.write("%s"%data.decode())#Não consigo dizer quão produtivo é reescrever e não baixar o arquivo via discord.Attachment.save()
         
         count = SeqIO.convert(f'{attachment.filename}', "fasta", "output.gbk", "genbank","DNA")                 
         await ctx.send(f"Conversão concluída! {count} sequências foram convertidas com sucesso.")
+       
         with open(f'output.gbk', 'rb') as arquivo:  
             await ctx.send("Aqui está o arquivo:",file=discord.File(arquivo, "Arquivo_GenBank.gbk"))        
         
