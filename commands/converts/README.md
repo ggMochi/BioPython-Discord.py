@@ -1,12 +1,6 @@
 # Comandos de conversão de arquivo
 Essa pasta contem os comandos necessarios para ser converter arquivos entre diferentes extenções 
 
-### Bibliotecas Utilizadas
-
-- **BioPython**: A biblioteca BioPython é utilizada para lidar com a manipulação e conversão de sequências biológicas. Ela fornece métodos e ferramentas para a leitura, escrita e análise de arquivos GenBank e Fasta, bem como para a conversão entre os formatos.
-
-- **discord.py**: A biblioteca discord.py é uma biblioteca de cliente para interação com a API do Discord. Ela permite a criação de bots personalizados para o Discord e oferece uma interface para lidar com eventos, comandos e interações no ambiente do Discord.
-
 ## Comando de Conversão de Arquivos Fasta para GenBank
 
 Este comando permite a conversão de arquivos Fasta enviados ao bot em arquivos GenBank. Ele utiliza as bibliotecas BioPython e discord.py para realizar a conversão e interagir com o ambiente do Discord.
